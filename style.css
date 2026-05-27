@@ -1,0 +1,28 @@
+/* .vscode/markdown-preview.css */
+
+h1 {
+  border-bottom: 3px solid currentColor;
+  padding-bottom: 0.25em;
+  margin-top: 1.6em;
+}
+
+h2 {
+  border-left: 6px solid currentColor;
+  padding-left: 0.6em;
+  margin-top: 1.4em;
+}
+
+h3 {
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+h1::before {
+  content: "# ";
+  opacity: 0.45;
+}
+
+h2::before {
+  content: "## ";
+  opacity: 0.45;
+}
