@@ -1,28 +1,29 @@
-/* .vscode/markdown-preview.css */
-
 h1 {
-  border-bottom: 3px solid currentColor;
-  padding-bottom: 0.25em;
-  margin-top: 1.6em;
+  color: #f07178;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 h2 {
-  border-left: 6px solid currentColor;
-  padding-left: 0.6em;
-  margin-top: 1.4em;
+  color: #5eb7f7;
+  font-size: 1.7em;
+  font-weight: 700;
 }
 
 h3 {
-  font-style: italic;
-  letter-spacing: 0.02em;
+  color: #f07178;
+  font-size: 1.45em;
+  font-weight: 700;
 }
 
-h1::before {
-  content: "# ";
-  opacity: 0.45;
+h4 {
+  color: #d5a461;
+  font-size: 1.25em;
+  font-weight: 700;
 }
 
-h2::before {
-  content: "## ";
-  opacity: 0.45;
+h5 {
+  color: #b8d982;
+  font-size: 1.1em;
+  font-weight: 700;
 }
